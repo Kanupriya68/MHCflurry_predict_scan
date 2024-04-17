@@ -2,8 +2,7 @@
 This repository demonstrates how to run Predict Scan tool of MHCFlurry tool using this python script.
 
 > [!IMPORTANT]
-
-Dependencies are listed in 'mhcflurry-env-spec.yml'
+> Dependencies are listed in 'mhcflurry-env-spec.yml'
 
 ### Steps to follow
 
