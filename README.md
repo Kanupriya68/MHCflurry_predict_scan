@@ -1,7 +1,7 @@
 # MHCflurry_predict_scan
 This repository demonstrates how to run Predict Scan tool of MHCFlurry tool using this python script.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 
 Dependencies are listed in 'mhcflurry-env-spec.yml'
 
