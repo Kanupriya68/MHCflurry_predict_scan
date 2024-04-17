@@ -20,7 +20,7 @@ def mhcflurry(protein:str,allele:str) -> None:
                 rows.append(row)
         return [header,rows]
 
-
+#Example code to call the function (Hashed to avoid issues with unit testing)
 # result = mhcflurry('MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSV','HLA-A*02:01')
 # print(result)
 
