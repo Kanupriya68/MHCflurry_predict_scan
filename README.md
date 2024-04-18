@@ -1,6 +1,7 @@
 # MHCflurry_predict_scan
 **This repository demonstrates how to run Predict Scan tool of MHCFlurry tool using this python script.**
 > Conda Version 24.1.2 is used to create environment for this project
+> mhcflurry Version 2.1.1 is used (refer to yml file for version check)
 
 > [!IMPORTANT]
 > Dependencies are listed in **mhcflurry-env-spec.yml**
