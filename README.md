@@ -12,7 +12,7 @@
 ```console
 conda env create -n mhcflurry-env-replica -f=mhcflurry-env-spec.yml
 ```
-3. Run
+3. Run (This step is only required for the first time you are activating a conda environment)
 ```console
 conda init
 ```
@@ -21,13 +21,14 @@ conda init
 conda activate mhcflurry-env-replica
 ```
 > [!IMPORTANT]
-> Once environment is activated, make sure to point python interpreter correctly towards newly activated environment 
+> Once the environment is activated, make sure to point at the correct Python interpreter. 
 5. Call **'mhcflurry'** function with protein and allele strings in **'main.py'**
-6.  Check working directory for results in **output.csv**
-7. To run unit test run this from terminal :
+6.  Check the working directory for results in **output.csv**
+7. To run the unit test run this from the terminal :
 ```console
 python -m unittest test_main.py
 ```
 > [!Note]
-> Tests if output.csv has header columns and rows populated in it
+> Need to hash function call in main.py before running unit test to avoid parallel calls.
+> Tests if output.csv has header columns and rows populated in it.
 
