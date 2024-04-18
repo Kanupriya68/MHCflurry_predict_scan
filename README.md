@@ -1,5 +1,6 @@
 # MHCflurry_predict_scan
 **This repository demonstrates how to run Predict Scan tool of MHCFlurry tool using this python script.**
+> Conda Version 24.1.2 is used to create environment for this project
 
 > [!IMPORTANT]
 > Dependencies are listed in **mhcflurry-env-spec.yml**
@@ -27,4 +28,6 @@ conda activate mhcflurry-env-replica
 ```console
 python -m unittest test_main.py
 ```
+> [!Note]
+> Tests if output.csv has header columns and rows populated in it
 
